@@ -15,7 +15,9 @@ This is a mutation tester for python that does do so completely in memory (no fi
 
 ## Usage
 
-Make sure both bamutpy and the module your are testing are on your pythonpath.
+First of all, I made this to do mutation testing on my own projects, so supporting those is my main goal. It might not work for your project setup. However, I'm happy to hear if it does not work for you, and look into a fix.
+
+Currently there is no installable package, just make sure both bamutpy and the module your are testing are on your pythonpath.
 
 
 ### Is your project suitable?
