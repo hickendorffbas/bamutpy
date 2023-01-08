@@ -1,0 +1,10 @@
+
+[general]
+amount_of_mutations = 10
+verbose_logging = false
+
+
+[paths]
+main_project_folder = "/folder/to/project"
+test_module_folder = "/folder/to/project/tests"
+
