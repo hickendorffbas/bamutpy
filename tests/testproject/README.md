@@ -1,6 +1,6 @@
 # Testproject for bamutpy
 
-** Note: ** this project contains ugly and buggy code, that is on purpose!
+**Note:** this project contains ugly and buggy code, that is on purpose!
 
 This is a project used by the tests of bamutpy, it is not part of bamutpy itself.
 
