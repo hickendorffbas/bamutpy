@@ -19,7 +19,7 @@ class Config():
     @classmethod
     def load(cls):
         with open("config.toml", "r") as config_file:
-            config_dict = tomli.loads(config_file.read())      
+            config_dict = tomli.loads(config_file.read())
 
         loaded_config = Config(config_dict["general"]["verbose_logging"],
                                config_dict["paths"]["main_project_folder"],

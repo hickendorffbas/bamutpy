@@ -41,7 +41,7 @@ def node_to_string(node):
         return f"<Alias: {node.name}, {node.asname}>"
 
 
-    if type(node) in (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Module, ast.FunctionDef, ast.arguments, 
+    if type(node) in (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Module, ast.FunctionDef, ast.arguments,
                       ast.Store, ast.Load, ast.Pass, ast.Eq, ast.NotEq):
         #These either have no members, or no members we are currently interested in to print
         return f"<{str(type(node).__name__)}>"

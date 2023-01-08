@@ -20,7 +20,7 @@ def file_path_to_import_path(project_root_path, file_path):
 
 
 def split_off_module_part_of_python_path(python_path):
-    #TODO: Note that this currently needs to be in the main file for the scoping to work. 
+    #TODO: Note that this currently needs to be in the main file for the scoping to work.
     #      We can probably be smarter about where stuff that we eval / exec lives, scope wise (can I just pass the global scope?)
     potential_module_path = python_path
     while True:
@@ -48,7 +48,7 @@ def replace_member_in_module(python_path, mutated_module):
     module_part_of_python_path, path_in_module = split_off_module_part_of_python_path(python_path)
 
     if path_in_module:
-        path_in_module = "." + path_in_module 
+        path_in_module = "." + path_in_module
 
     global module_to_assign
     module_to_assign = mutated_module
@@ -59,7 +59,7 @@ def replace_member_in_module(python_path, mutated_module):
 config.Config.load()
 
 
-scanner = scanner_module.SourceCodeScanner(get_config().main_project_folder, 
+scanner = scanner_module.SourceCodeScanner(get_config().main_project_folder,
                                            get_config().test_module_folder)
 
 

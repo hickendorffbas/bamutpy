@@ -16,9 +16,9 @@ def test_format_function():
 
     assert len(nodes) == 2
 
-    node_0_str = node_to_string(nodes[0])    
+    node_0_str = node_to_string(nodes[0])
     assert node_0_str == """<Assign: ['<Name: amount>'] <BinOp: <Add> <Constant: 1> <BinOp: <Mult> <Constant: 3> <Call: <Name: sum> ["<List: ['<Constant: 1>', '<Constant: 2>', '<Constant: 3>']>"]>>>>"""
 
-    node_1_str = node_to_string(nodes[1])    
+    node_1_str = node_to_string(nodes[1])
     assert node_1_str == """<Expr: <Call: <Name: print> ['<Name: amount>']>>"""
 

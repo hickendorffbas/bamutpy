@@ -6,7 +6,7 @@ class Loan():
         self.amount = amount
 
     def is_valid(self):
-        basis = self.account.balance / 5    
+        basis = self.account.balance / 5
         basis = basis + 10
         return basis > self.amount
 
