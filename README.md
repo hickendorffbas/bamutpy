@@ -5,9 +5,9 @@
 
 This is a mutation tester for python that does do so completely in memory (no files are written). See https://en.wikipedia.org/wiki/Mutation_testing for an overview of what mutation testing is.
 
-** WARNING: ** Bamutpy (like other mutation testers) will randomly modify code and execute it, all risks of doing so are for the user!
+**WARNING:** Bamutpy (like other mutation testers) will randomly modify code and execute it, all risks of doing so are for the user!
 
-** WARNING: ** This is a tool I find useful for my own projects. It probably contains bugs. Running it is completely at your own risk. I don't promise it won't completely destroy your system by randomly running a mutated piece of code.
+**WARNING:** This is a tool I find useful for my own projects. It probably contains bugs. Running it is completely at your own risk. I don't promise it won't completely destroy your system by randomly running a mutated piece of code.
 
 
 
