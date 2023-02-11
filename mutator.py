@@ -119,12 +119,12 @@ class CodeTransformer(ast.NodeTransformer):
 
     def visit_Assign(self, node):
         if self._mutation.applies_to(node, MutationType.REMOVE_STATEMENT):
-            return None
+            return ast.Pass()
         return node
 
     def visit_AugAssign(self, node):
         if self._mutation.applies_to(node, MutationType.REMOVE_STATEMENT):
-            return None
+            return ast.Pass()
         return node
 
     def _get_node_for_operator(self, operator):
